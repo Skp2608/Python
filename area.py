@@ -1,8 +1,8 @@
-r = float(input("Enter a radius circle:"))
+radius = float(input("Enter a radius of circle:"))
 
 
-def area(r):
-    return 3.14*r*r
+def area(radius):
+    return 3.14*(radius**2)
 
 
-print(f"Area of given circle is {area(r)}")
+print(f"Area of given circle is {area(radius)}")
